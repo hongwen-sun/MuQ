@@ -96,6 +96,14 @@ print(sim)
 | MuQ    | ~300M  | MSD dataset | [OpenMuQ/MuQ-large-msd-iter](https://huggingface.co/OpenMuQ/MuQ-large-msd-iter)       |
 | MuQ-MuLan  | ~700M | music-text pairs | [OpenMuQ/MuQ-MuLan-large](https://huggingface.co/OpenMuQ/MuQ-MuLan-large)       |
 
+**Note**: Please note that the open-sourced MuQ was trained on the Million Song Dataset. Due to differences in dataset size, the open-sourced model may not achieve the same level of performance as reported in the paper.
+
+## License
+
+The code in this repository is released under the MIT license as found in the [LICENSE](LICENSE) file.
+
+The model weights (MuQ-large-msd-iter, MuQ-MuLan-large) in this repository are released under the CC-BY-NC 4.0 license, as detailed in the [LICENSE_weights](LICENSE_weights) file. 
+
 ## Citation
 
 Upcoming
