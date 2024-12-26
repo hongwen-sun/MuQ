@@ -25,8 +25,8 @@ We also construct the **MuQ-MuLan**, a CLIP-like model trained by contrastive le
 For more details, please refer to our [paper](https://arxiv.org/).
 
 <div>
-  <img src="images/radar.svg" width="45%" alt="Evaluation on MARBLE Benchmark">
-  <img src="images/tagging.svg" width="45%" alt="Evaluation on Zero-shot Music Tagging">
+  <img src="images/radar.jpg" width="45%" alt="Evaluation on MARBLE Benchmark">
+  <img src="images/tagging.jpg" width="45%" alt="Evaluation on Zero-shot Music Tagging">
 </div>
 
 ## Usage
