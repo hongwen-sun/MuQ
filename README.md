@@ -109,7 +109,7 @@ The model weights (MuQ-large-msd-iter, MuQ-MuLan-large) in this repository are r
 ```
 @article{zhu2025muq,
       title={MuQ: Self-Supervised Music Representation Learning with Mel Residual Vector Quantization}, 
-      author={Haina Zhu and Yizhi Zhou and Hangting Chen and Jianwei Yu and Ziyang Ma and Rongzhi Gu and Wei Tan and Xie Chen},
+      author={Haina Zhu and Yizhi Zhou and Hangting Chen and Jianwei Yu and Ziyang Ma and Rongzhi Gu and Yi Luo and Wei Tan and Xie Chen},
       journal={arXiv preprint arXiv:2501.01108},
       year={2025}
 }
