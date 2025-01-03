@@ -2,7 +2,7 @@
 
 <div>
   <a href='#'><img alt="Static Badge" src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white"></a>
-  <a href='https://arxiv.org/'><img alt="Static Badge" src="https://img.shields.io/badge/arXiv-Upcoming-%23b31b1b?logo=arxiv&link=https%3A%2F%2Farxiv.org%2F"></a>
+  <a href='https://arxiv.org/abs/2501.01108'><img alt="Static Badge" src="https://img.shields.io/badge/arXiv-2501.01108-%23b31b1b?logo=arxiv&link=https%3A%2F%2Farxiv.org%2F"></a>
   <a href='https://huggingface.co/OpenMuQ'><img alt="Static Badge" src="https://img.shields.io/badge/huggingface-OpenMuQ-%23FFD21E?logo=huggingface&link=https%3A%2F%2Fhuggingface.co%2FOpenMuQ"></a>
   <a href='https://pytorch.org/'><img alt="Static Badge" src="https://img.shields.io/badge/framework-PyTorch-%23EE4C2C?logo=pytorch"></a>
   <a href='https://pypi.org/project/muq'><img alt="Static Badge" src="https://img.shields.io/badge/pip%20install-muq-green?logo=PyPI&logoColor=white&link=https%3A%2F%2Fpypi.org%2Fproject%2Fmuq"></a>
@@ -22,7 +22,7 @@ We develop the **MuQ** for music SSL. MuQ applys our proposed Mel-RVQ as quantit
 
 We also construct the **MuQ-MuLan**, a CLIP-like model trained by contrastive learning, which jointly represents music and text into embeddings.
 
-For more details, please refer to our [paper](https://arxiv.org/).
+For more details, please refer to our [paper](https://arxiv.org/abs/2501.01108).
 
 <div>
   <img src="images/radar.jpg" width="45%" alt="Evaluation on MARBLE Benchmark">
@@ -106,7 +106,14 @@ The model weights (MuQ-large-msd-iter, MuQ-MuLan-large) in this repository are r
 
 ## Citation
 
-Upcoming
+```
+@article{zhu2025muq,
+      title={MuQ: Self-Supervised Music Representation Learning with Mel Residual Vector Quantization}, 
+      author={Haina Zhu and Yizhi Zhou and Hangting Chen and Jianwei Yu and Ziyang Ma and Rongzhi Gu and Wei Tan and Xie Chen},
+      journal={arXiv preprint arXiv:2501.01108},
+      year={2025}
+}
+```
 
 ## Acknowledgement
 
