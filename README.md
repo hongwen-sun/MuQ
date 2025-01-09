@@ -74,7 +74,7 @@ with torch.no_grad():
     audio_embeds = mulan(wavs = wavs) 
 
 # Extract text embeddings (texts can be in English or Chinese)
-texts = ["classical genres, hopeful mood, piano."]
+texts = ["classical genres, hopeful mood, piano.", "一首适合海边风景的小提琴曲，节奏欢快"]
 with torch.no_grad():
     text_embeds = mulan(texts = texts)
 
