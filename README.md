@@ -36,6 +36,7 @@ To begin with, please use pip to install the official `muq` lib, and ensure that
 pip3 install muq
 ```
 
+
 To extract music audio features using **MuQ**, you can refer to the following code:
 ```python
 import torch, librosa
@@ -83,6 +84,9 @@ sim = mulan.calc_similarity(audio_embeds, text_embeds)
 print(sim)
 ```
 
+> Note that both MuQ and MuQ-MuLan strictly require **24 kHz** audio as input.
+> We recommend using **fp32** during MuQ inference to avoid potential NaN issues.
+
 
 ## Performance
 
@@ -96,7 +100,7 @@ print(sim)
 | MuQ    | ~300M  | MSD dataset | [OpenMuQ/MuQ-large-msd-iter](https://huggingface.co/OpenMuQ/MuQ-large-msd-iter)       |
 | MuQ-MuLan  | ~700M | music-text pairs | [OpenMuQ/MuQ-MuLan-large](https://huggingface.co/OpenMuQ/MuQ-MuLan-large)       |
 
-**Note**: Please note that the open-sourced MuQ was trained on the Million Song Dataset. Due to differences in dataset size, the open-sourced model may not achieve the same level of performance as reported in the paper.
+**Note**: Please note that the open-sourced MuQ was trained on the Million Song Dataset. Due to differences in dataset size, the open-sourced model may not achieve the same level of performance as reported in the paper. The training recipes can be found [here](./src/recipes).
 
 ## License
 

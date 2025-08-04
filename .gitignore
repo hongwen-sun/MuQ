@@ -38,3 +38,9 @@ ENV/
 
 # custom
 open/
+src/recipes/pretrain/dataset/music4all/*.json
+src/recipes/contrastive_learning/datasets/mtg-jamendo/*.json
+runs/
+output/
+logs
+outputs/
